@@ -14,7 +14,7 @@ def ruta2():
 ## Definimos una tercera ruta
 @app.route("/ruta3")
 def ruta3():
-    return "<em> Estamos en la tercera ruta </em> <hr>"
+    return "<em> Estamos en la tercera ruta de nuestra aplicacion</em> <hr>"
 
 if __name__=='__main__':
     ## El valor True indica que la app se deja en modo debug
